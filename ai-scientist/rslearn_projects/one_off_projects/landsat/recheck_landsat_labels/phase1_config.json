@@ -1,0 +1,101 @@
+{
+  "layers": {
+    "label": {
+      "format": {
+        "name": "geojson"
+      },
+      "type": "vector"
+    },
+    "landsat": {
+      "band_sets": [
+        {
+          "bands": [
+            "R",
+            "G",
+            "B"
+          ],
+          "dtype": "uint8",
+          "format": {
+            "format": "png",
+            "name": "single_image"
+          }
+        },
+        {
+          "bands": [
+            "B2"
+          ],
+          "dtype": "uint8",
+          "format": {
+            "format": "png",
+            "name": "single_image"
+          }
+        },
+        {
+          "bands": [
+            "B3"
+          ],
+          "dtype": "uint8",
+          "format": {
+            "format": "png",
+            "name": "single_image"
+          }
+        },
+        {
+          "bands": [
+            "B4"
+          ],
+          "dtype": "uint8",
+          "format": {
+            "format": "png",
+            "name": "single_image"
+          }
+        },
+        {
+          "bands": [
+            "B5"
+          ],
+          "dtype": "uint8",
+          "format": {
+            "format": "png",
+            "name": "single_image"
+          }
+        },
+        {
+          "bands": [
+            "B6"
+          ],
+          "dtype": "uint8",
+          "format": {
+            "format": "png",
+            "name": "single_image"
+          }
+        },
+        {
+          "bands": [
+            "B7"
+          ],
+          "dtype": "uint8",
+          "format": {
+            "format": "png",
+            "name": "single_image"
+          }
+        },
+        {
+          "bands": [
+            "B8"
+          ],
+          "dtype": "uint8",
+          "format": {
+            "format": "png",
+            "name": "single_image"
+          }
+        }
+      ],
+      "type": "raster"
+    }
+  },
+  "tile_store": {
+    "name": "file",
+    "root_dir": "/data/favyenb/rslearn_landsat/tiles"
+  }
+}

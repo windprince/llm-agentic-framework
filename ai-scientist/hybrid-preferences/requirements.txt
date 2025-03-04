@@ -1,0 +1,13 @@
+transformers
+pandas
+spacy==3.7.5
+numpy
+evaluate
+rouge-score
+sentence-transformers
+bert_score
+nltk==3.9b1
+beaker-py
+google-cloud-storage
+datasets
+vllm>=0.4.1
